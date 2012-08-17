@@ -5,17 +5,11 @@ This is a Scheme interpreter written in Haskell, following the excellent tutoria
 
 To install, run:
 
-<pre>
-git clone https://github.com/jns2/haskell-scheme-tutorial.git
-</pre>
+```git clone https://github.com/jns2/haskell-scheme-tutorial.git```
 
-<pre>
-ghc -package parsec -o lisp scheme-interpreter.hs
-</pre>
+```ghc -package parsec -o lisp scheme-interpreter.hs```
 
-<pre>
-./lisp
-</pre>
+```./lisp```
 
 You should see an interactive REPL.  Here are a few things to try:
 

@@ -9,7 +9,7 @@ To install, run:
 
 ```ghc -package parsec -o lisp scheme-interpreter.hs```
 
-``` ./lisp```
+Then run the executable: ```./lisp```
 
 You should see an interactive REPL.  Here are a few things to try:
 

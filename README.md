@@ -15,7 +15,8 @@ Usage
 -----
 You should see an interactive REPL.  Here are a few things to try:
 
-(+ (- 4 3) (- 9 8))
+```lisp>>> (+ (- 4 3) (- 9 8))
+2```
 
 ((lambda (x) (+ x 10)) 5)
 

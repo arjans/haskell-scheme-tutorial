@@ -14,10 +14,10 @@ Then run the executable: ```./lisp```
 Usage
 -----
 You should see an interactive REPL.  Here are a few things to try:
-
-```lisp>>> (+ (- 4 3) (- 9 8))
-2```
-
+<pre>
+lisp>>> (+ (- 4 3) (- 9 8))
+2
+</pre>
 ((lambda (x) (+ x 10)) 5)
 
 (load "test.scm") 

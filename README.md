@@ -15,13 +15,18 @@ Usage
 -----
 You should see an interactive REPL.  Here are a few things to try:
 <pre>
-lisp>>> (+ (- 4 3) (- 9 8))
+Lisp>>> (+ (- 4 3) (- 9 8))
 2
 </pre>
-((lambda (x) (+ x 10)) 5)
-
-(load "test.scm") 
-followed by:
-(add3 7)
+<pre>
+Lisp>>> ((lambda (x) (+ x 10)) 5)
+15
+</pre>
+<pre>
+Lisp>>> (load "test.scm") 
+(lambda ("n") ...)
+Lisp>>> (add3 7)
+10
+</pre>
 
 [1]: http://jonathan.tang.name/files/scheme_in_48/tutorial/overview.html

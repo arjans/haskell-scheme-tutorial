@@ -21,7 +21,10 @@ You should see an interactive REPL.  Here are a few things to try:
 
 (+ (- 4 3) (- 9 8))
 
+((lambda (x) (+ x 10)) 5)
+
 (load "test.scm") 
-followed by (add3 7)
+followed by:
+(add3 7)
 
 [1]: http://jonathan.tang.name/files/scheme_in_48/tutorial/overview.html

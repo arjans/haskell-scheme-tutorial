@@ -3,11 +3,11 @@ Scheme Interpreter in Haskell
 
 This is a Scheme interpreter written in Haskell, following the excellent tutorial, "Write Yourself a Scheme in 48 Hours", by Gary Tan. [1]
 
-To install, run:
+To install:
 
-```git clone https://github.com/jns2/haskell-scheme-tutorial.git```
+Clone the repo: ```git clone https://github.com/jns2/haskell-scheme-tutorial.git```
 
-```ghc -package parsec -o lisp scheme-interpreter.hs```
+Compile with GHC: ```ghc -package parsec -o lisp scheme-interpreter.hs```
 
 Then run the executable: ```./lisp```
 

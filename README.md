@@ -3,6 +3,8 @@ Scheme Interpreter in Haskell
 
 This is a Scheme interpreter written in Haskell, following the excellent tutorial, "Write Yourself a Scheme in 48 Hours", by Gary Tan. [1]
 
+[1]: http://jonathan.tang.name/files/scheme_in_48/tutorial/overview.html
+
 Setup
 -----
 Clone the repo: ```git clone https://github.com/jns2/haskell-scheme-tutorial.git```
@@ -29,4 +31,7 @@ Lisp>>> (add3 7)
 10
 </pre>
 
-[1]: http://jonathan.tang.name/files/scheme_in_48/tutorial/overview.html
+Requirements
+------------
+To install and run this interpreter, you'll need the [Haskell Platform](http://hackage.haskell.org/platform/), which includes GHC (the Glasgow Haskell Compiler) and all the requisite packages.
+

@@ -7,7 +7,7 @@ This is a Scheme interpreter written in Haskell, following the excellent tutoria
 
 Setup
 -----
-Clone the repo: ```git clone https://github.com/jns2/haskell-scheme-tutorial.git```
+Clone the repo: ```git clone https://github.com/arjans/haskell-scheme-tutorial.git```
 
 Compile with GHC: ```ghc -package parsec -o lisp scheme-interpreter.hs```
 
